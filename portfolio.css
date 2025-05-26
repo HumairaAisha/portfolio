@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #02050A;
+   font-family: "Rubik", sans-serif;
+   color: white;
+}
+
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer;
+   top: 0;
+   position: sticky;
+   background-color: #09101A;
+   padding: 1rem 4rem;
+   gap: 3rem;
+   
+   
+}
+.head-logo:hover{
+ color: #55E6A5;
+
+}
+
+.navbarList{
+   display: flex;
+   gap: 3rem;
+   align-items: center;
+   font-size: 1.2rem;
+   
+}
+.navbarList a{
+   text-decoration: none;
+   color: white;
+   
+}
+ul li{
+   list-style: none;  
+}
+
+.navbarList a:hover{
+   color: #55E6A5;
+   
+   
+}
+.navbar .icon{
+   display: none;
+   color: #09101A;
+   background-color: white;
+   font-size: 2rem;
+   padding: 1rem;
+   
+}
+
+.hero-section{
+   background-color: #09101A;
+   padding: 2rem 0 3rem 0;
+}
+
+
+.hero-intro{
+  padding: 0 2rem; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.hero-intro h1{
+   font-size: 2.7rem;
+   margin: 1rem 0 0.5rem 0;
+}
+
+.hero-intro h2{
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+.hero-intro p{
+   line-height: 1.5;
+}
+.img-hero{
+   width: 500px;
+}
+
+.hero{
+   display: flex;
+}
+.btn-hero{
+   gap: 4rem;
+}
+.btn-work, .btn-build{
+   background-color: #55E6A5;
+   color: #09101A;
+   padding: 0.9rem;
+   margin-left: 2rem;
+   font-size: 1rem;
+   border-radius: 0.3rem;
+   font-size: 1rem;
+   font-weight: 500;
+   border: none;
+   
+}
+
+.btn-build a, .btn-work a{
+   text-decoration: none;
+   color: #09101A;
+}
+
+
+.sec-about{
+   padding-top: 3rem;
+}
