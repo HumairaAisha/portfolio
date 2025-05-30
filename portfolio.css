@@ -63,15 +63,89 @@ ul li{
 
 .hero-section{
    background-color: #09101A;
-   padding: 2rem 0 3rem 0;
+   padding: 2rem 2rem 3rem 2rem;
+}
+
+.img-hero{
+   display: block;
+   align-items: center;
+   width: 400px;
+}
+
+.hero-intro h1{
+   font-size: 2.5rem;
+}
+.hero-intro h2{
+   color: #55E6A5;
+   font-size: 1.3rem;
+}
+.hero-intro p{
+   margin: 2.3rem auto;
+   line-height: 1.2;
+   font-size: 1rem;
+   
+   color: #A2A2A2;
+}
+.btn-hero{
+   margin: 1rem 0;
+}
+.btn-work, .btn-build{
+   background-color: #55E6A5;
+   color: #09101A;
+   padding: 0.9rem;
+   margin-left: 2rem;
+   font-size: 1rem;
+   border-radius: 0.3rem;
+   font-size: 1rem;
+   font-weight: 500;
+   border: none;
+   
+}
+
+.btn-build a, .btn-work a{
+   text-decoration: none;
+   color: #09101A;
+}
+.sec-about{
+   padding-top: 3rem;
+}
+
+/*Footer section*/
+.more-info{
+   display: flex;
+   flex-direction: column;
+   padding: 2rem;
+}
+.info-icon{
+   display: block;
+   padding: 0.2rem;
+   border-radius: 2rem;
+   background-color: #55E6A5;
+}
+.info p{
+   font-size: 1rem;
+   color: #A2A2A2;
+   margin: 0.5rem 0;
+}
+.info h4{
+   font-size: 1.2rem;
+   margin: 0.5rem;
+}
+.info{
+   display: flex;
+   margin: 1rem 0;
+   gap: 2rem;
 }
 
 
+
+
+@media (min-width: 768px) {
 .hero-intro{
   padding: 0 2rem; 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
   
 }
 .hero-intro h1{
@@ -96,25 +170,12 @@ ul li{
 .btn-hero{
    gap: 4rem;
 }
-.btn-work, .btn-build{
-   background-color: #55E6A5;
-   color: #09101A;
-   padding: 0.9rem;
-   margin-left: 2rem;
-   font-size: 1rem;
-   border-radius: 0.3rem;
-   font-size: 1rem;
-   font-weight: 500;
-   border: none;
-   
-}
-
-.btn-build a, .btn-work a{
-   text-decoration: none;
-   color: #09101A;
 }
 
 
-.sec-about{
-   padding-top: 3rem;
+
+/*Footer Desktop view*/
+.more-info{
+   display: flex;
+   gap: 2rem;
 }
