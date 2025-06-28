@@ -310,26 +310,36 @@ hr{
 
     footer .more-info {
         flex-direction: row;
-        justify-content: center;
         gap: 5rem;
         padding: 2rem;
+        margin: 0 10rem;
     }
 
     .info {
-        align-items: flex-start;
+      
+        display: flex;
+        flex-direction: row;
+        margin: 0 3rem;
+        
     }
 
     .info h4 {
         text-align: start;
+        margin: 0 1rem;
+        font-size: 1rem;
+        
     }
 
     .info p {
         text-align: start;
         font-size: 1.2rem;
+        max-width: 400px;
+        margin: 0 1rem;
     }
 
     .info-icon {
         justify-content: flex-start;
+        
     
     }
 }
